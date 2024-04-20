@@ -18,7 +18,15 @@ function ProductListing(props) {
         // console.log("resoponse", resoponse)
         dispatch(setProducts(resoponse.data))
     }
-    console.log(products)
+
+    // const fetchProducts=()=>{
+    //     axios.get("https://fakestoreapi.com/products").then(res=>{
+
+    //     }).catch(error=>{
+
+    //     })
+    // }
+    //console.log(products)
     return (
         <div>
             <h1>Product Listing</h1>
